@@ -1,27 +1,27 @@
 import Navbar from '@/components/layout/Navbar';
-import Footer from '@/components/layout/Footer';
-import Hero from '@/components/sections/Hero';
-import AboutUs from '@/components/sections/AboutUs';
-import Classes from '@/components/sections/Classes';
-import Headmaster from '@/components/sections/Headmaster';
-import Instructors from '@/components/sections/Instructors';
-import Reviews from '@/components/sections/Reviews';
-import CallToAction from '@/components/sections/CallToAction';
+import FooterSection from '@/components/layout/FooterSection';
+import HeroBanner from '@/components/sections/HeroBanner';
+import AcademyIntroduction from '@/components/sections/AcademyIntroduction';
+import MartialArtsTrainingOverview from '@/components/sections/MartialArtsTrainingOverview';
+import WhyChooseBudo from '@/components/sections/WhyChooseBudo';
+import FeaturedPrograms from '@/components/sections/FeaturedPrograms';
+import StudentBenefitsSection from '@/components/sections/StudentBenefitsSection';
+import TestimonialsSection from '@/components/sections/TestimonialsSection';
 
 export default function Home() {
   return (
-    <div className="bg-brand-dark min-h-screen font-sans selection:bg-brand-red selection:text-white overflow-x-hidden">
+    <div className="bg-black min-h-screen font-sans selection:bg-brand-red selection:text-white overflow-x-hidden">
       <Navbar />
-      <main>
-        <Hero />
-        <AboutUs />
-        <Classes />
-        <Headmaster />
-        <Instructors />
-        <Reviews />
-        <CallToAction />
+      <main className="pt-20">
+        <HeroBanner />
+        <AcademyIntroduction />
+        <MartialArtsTrainingOverview />
+        <WhyChooseBudo />
+        <FeaturedPrograms />
+        <StudentBenefitsSection />
+        <TestimonialsSection />
       </main>
-      <Footer />
+      <FooterSection />
     </div>
   );
 }
