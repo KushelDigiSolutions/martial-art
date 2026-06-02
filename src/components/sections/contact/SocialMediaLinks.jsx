@@ -92,7 +92,7 @@ export default function SocialMediaLinks() {
             <p className="text-brand-red font-bold tracking-[0.2em] text-xs uppercase font-sans">Stay Connected</p>
             <div className="w-8 h-0.5 bg-brand-red"></div>
           </div>
-          <h2 className="text-4xl md:text-6xl font-black tracking-tighter font-display uppercase">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-black tracking-tighter font-display uppercase">
             SOCIAL MEDIA <span className="text-brand-red">LINKS</span>
           </h2>
           <p className="mt-4 text-brand-light-gray font-sans font-light max-w-lg mx-auto text-base leading-relaxed">
@@ -180,7 +180,7 @@ export default function SocialMediaLinks() {
         </div>
 
         {/* Community Banner */}
-        <div className="mt-16 bg-brand-red p-6 md:p-10 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="mt-8 bg-brand-red p-6 md:p-10 flex flex-col md:flex-row items-center justify-between gap-6">
           <div>
             <p className="text-white/80 text-xs font-bold tracking-[0.2em] uppercase font-sans mb-2">Join The Community</p>
             <h3 className="text-white font-black font-display uppercase text-3xl md:text-4xl tracking-tight leading-tight">

@@ -14,7 +14,7 @@ const highlights = [
 
 export default function TeenProgram() {
   return (
-    <section className="relative bg-black py-24 md:py-32 overflow-hidden">
+    <section className="relative bg-black py-14 md:py-20 overflow-hidden">
       <div className="absolute top-0 left-0 w-32 h-32 border-l-2 border-t-2 border-brand-red/20" />
       <div className="absolute bottom-0 right-0 w-32 h-32 border-r-2 border-b-2 border-brand-red/20" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-brand-red/[0.03] rounded-full blur-3xl pointer-events-none" />
@@ -29,7 +29,7 @@ export default function TeenProgram() {
               <p className="text-brand-red font-bold tracking-[0.2em] text-xs uppercase font-sans">Teen Warriors</p>
             </div>
 
-            <h2 className="font-display font-black tracking-tighter uppercase text-4xl md:text-5xl lg:text-6xl text-white leading-[0.9]">
+            <h2 className="font-display font-black tracking-tighter uppercase text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white leading-[0.9]">
               Teen Martial
               <br />
               <span className="text-brand-red">Arts Program</span>
@@ -70,8 +70,8 @@ export default function TeenProgram() {
                 <div className="absolute inset-0 bg-brand-red/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
               </div>
             </div>
-            <div className="absolute -bottom-4 -right-4 bg-brand-red text-white px-6 py-3 z-10 shadow-lg shadow-brand-red/30">
-              <p className="font-display font-black text-2xl uppercase tracking-tight">Ages 13–17</p>
+            <div className="absolute -bottom-4 right-0 bg-brand-red text-white px-5 py-2 z-10 shadow-lg shadow-brand-red/30">
+              <p className="font-display font-black text-lg sm:text-2xl uppercase tracking-tight">Ages 13–17</p>
             </div>
           </div>
 

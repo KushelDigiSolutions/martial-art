@@ -14,7 +14,7 @@ const benefits = [
 
 export default function AdultProgram() {
   return (
-    <section className="relative bg-[#050505] py-24 md:py-32 overflow-hidden">
+    <section className="relative bg-[#050505] py-14 md:py-20 overflow-hidden">
       {/* Subtle background texture */}
       <div className="absolute inset-0 opacity-[0.03]">
         <div
@@ -52,8 +52,8 @@ export default function AdultProgram() {
             </div>
 
             {/* Floating badge */}
-            <div className="absolute -bottom-4 -left-4 bg-brand-red text-white px-6 py-3 z-10 shadow-lg shadow-brand-red/30">
-              <p className="font-display font-black text-2xl uppercase tracking-tight">18+ Adults</p>
+            <div className="absolute -bottom-4 left-0 bg-brand-red text-white px-5 py-2 z-10 shadow-lg shadow-brand-red/30">
+              <p className="font-display font-black text-lg sm:text-2xl uppercase tracking-tight">18+ Adults</p>
             </div>
           </div>
 
@@ -68,7 +68,7 @@ export default function AdultProgram() {
             </div>
 
             {/* Heading */}
-            <h2 className="font-display font-black tracking-tighter uppercase text-4xl md:text-5xl lg:text-6xl text-white leading-[0.9]">
+            <h2 className="font-display font-black tracking-tighter uppercase text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white leading-[0.9]">
               Adult Martial
               <br />
               <span className="text-brand-red">Arts Program</span>

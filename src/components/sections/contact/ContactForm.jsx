@@ -110,13 +110,9 @@ export default function ContactForm() {
             <p className="text-brand-red font-bold tracking-[0.2em] text-xs uppercase font-sans">Send A Message</p>
             <div className="w-8 h-0.5 bg-brand-red"></div>
           </div>
-          <h2 className="text-4xl md:text-6xl font-black tracking-tighter font-display uppercase">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-black tracking-tighter font-display uppercase">
             CONTACT <span className="text-brand-red">FORM</span>
           </h2>
-          <p className="mt-4 text-brand-light-gray font-sans font-light max-w-lg mx-auto text-base leading-relaxed">
-            Fill out the form below and we'll connect with you on WhatsApp at <span className="text-brand-red font-semibold">+91 88008 44647</span> within 24 hours.
-          </p>
-          <p className="mt-2 text-brand-red text-xs font-semibold tracking-wider uppercase">All fields marked with * are required</p>
         </div>
 
         <div className="max-w-3xl mx-auto">

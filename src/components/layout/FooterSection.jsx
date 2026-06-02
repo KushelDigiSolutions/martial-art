@@ -15,9 +15,9 @@ export default function FooterSection() {
             We are dedicated to providing the highest quality martial arts instruction in a safe and positive environment. Our goal is to empower our students to achieve their full potential.
           </p>
           <div className="flex space-x-6 text-brand-light-gray font-display font-bold tracking-widest text-sm">
-            <Link href="#" className="hover:text-brand-red transition-colors pb-1 border-b border-transparent hover:border-brand-red cursor-pointer">Fb.</Link>
-            <Link href="#" className="hover:text-brand-red transition-colors pb-1 border-b border-transparent hover:border-brand-red cursor-pointer">Tw.</Link>
-            <Link href="#" className="hover:text-brand-red transition-colors pb-1 border-b border-transparent hover:border-brand-red cursor-pointer">In.</Link>
+            <Link href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-brand-red transition-colors pb-1 border-b border-transparent hover:border-brand-red">Fb.</Link>
+            <Link href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-brand-red transition-colors pb-1 border-b border-transparent hover:border-brand-red">Tw.</Link>
+            <Link href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="hover:text-brand-red transition-colors pb-1 border-b border-transparent hover:border-brand-red">In.</Link>
           </div>
         </div>
 
@@ -37,26 +37,26 @@ export default function FooterSection() {
           <h4 className="text-xl font-black mb-8 tracking-wider font-display uppercase cursor-pointer hover:text-brand-red transition-colors">CONTACT</h4>
           <ul className="space-y-4 text-sm text-brand-light-gray font-sans font-light">
             <li className="leading-relaxed flex items-start space-x-3">
-              <MapPin className="w-5 h-5 text-brand-red flex-shrink-0 mt-1" />
               <a
                 href="https://maps.google.com/?q=Vasundhara+Enclave+Delhi+110096"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-brand-red transition-colors"
+                className="flex items-start space-x-3 hover:text-brand-red transition-colors group"
               >
-                Vasundhara Enclave,<br/>Delhi - 110096<br/>Beside Dharamshila Cancer Hospital
+                <MapPin className="w-5 h-5 text-brand-red flex-shrink-0 mt-1 group-hover:scale-110 transition-transform" />
+                <span>Vasundhara Enclave,<br/>Delhi - 110096<br/>Beside Dharamshila Cancer Hospital</span>
               </a>
             </li>
             <li className="mt-4 flex items-center space-x-3">
-              <Phone className="w-5 h-5 text-brand-red flex-shrink-0" />
-              <a href="tel:+918800844647" className="text-white font-medium hover:text-brand-red transition-colors">
-                +91 88008 44647
+              <a href="tel:+918800844647" className="flex items-center space-x-3 text-white font-medium hover:text-brand-red transition-colors group">
+                <Phone className="w-5 h-5 text-brand-red flex-shrink-0 group-hover:scale-110 transition-transform" />
+                <span>+91 88008 44647</span>
               </a>
             </li>
             <li className="flex items-center space-x-3">
-              <Mail className="w-5 h-5 text-brand-red flex-shrink-0" />
-              <a href="mailto:budomartialarts69@gmail.com" className="text-white font-medium hover:text-brand-red transition-colors">
-                budomartialarts69@gmail.com
+              <a href="mailto:budomartialarts69@gmail.com" className="flex items-center space-x-3 text-white font-medium hover:text-brand-red transition-colors group">
+                <Mail className="w-5 h-5 text-brand-red flex-shrink-0 group-hover:scale-110 transition-transform" />
+                <span>budomartialarts69@gmail.com</span>
               </a>
             </li>
           </ul>

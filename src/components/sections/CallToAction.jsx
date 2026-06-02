@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function CallToAction() {
   return (
-    <section className="bg-brand-red text-white py-32 relative overflow-hidden">
+    <section className="bg-brand-red text-white py-16 relative overflow-hidden">
       
       {/* Background Graphic Mask */}
       <div className="absolute top-0 right-0 h-full w-2/3 opacity-30 hidden lg:block clip-diagonal-right bg-black"></div>

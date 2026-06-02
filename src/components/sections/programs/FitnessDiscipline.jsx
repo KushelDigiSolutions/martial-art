@@ -30,7 +30,7 @@ const pillars = [
 
 export default function FitnessDiscipline() {
   return (
-    <section className="relative bg-brand-dark py-24 md:py-32 overflow-hidden">
+    <section className="relative bg-brand-dark py-14 md:py-20 overflow-hidden">
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-0 items-stretch">
           {/* Left Side — Text Content */}
@@ -44,7 +44,7 @@ export default function FitnessDiscipline() {
             </div>
 
             {/* Heading */}
-            <h2 className="font-display font-black tracking-tighter uppercase text-4xl md:text-5xl lg:text-6xl text-white leading-[0.9]">
+            <h2 className="font-display font-black tracking-tighter uppercase text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white leading-[0.9]">
               Fitness &
               <br />
               <span className="text-brand-red">Discipline</span>
@@ -101,8 +101,8 @@ export default function FitnessDiscipline() {
         </div>
 
         {/* Stats Row */}
-        <div className="mt-16 md:mt-20">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-0">
+        <div className="mt-10 md:mt-14">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-px bg-gray-800">
             {stats.map((stat, index) => {
               const IconComponent = stat.icon;
               return (

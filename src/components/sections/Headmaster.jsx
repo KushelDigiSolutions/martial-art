@@ -11,30 +11,30 @@ export default function Headmaster() {
           <p className="text-white font-bold tracking-[0.2em] text-sm uppercase mb-4">Meet The Founder</p>
           <div className="border-l-4 border-t-4 border-white pt-8 pl-8 relative">
             {/* The name is huge and overlaps */}
-            <h2 className="text-5xl md:text-6xl lg:text-8xl font-black tracking-tighter leading-none -ml-4 bg-brand-red inline-block pr-4">
-              ANIL<br/>BARYA
+            <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-black tracking-tighter leading-none -ml-4 bg-brand-red inline-block pr-4">
+              KYOSHI ANIL<br/>BARYA
             </h2>
           </div>
         </div>
 
         {/* Center Image */}
-        <div className="md:col-span-3 relative h-[600px] -my-32 z-10 hidden md:block">
+        <div className="md:col-span-3 relative h-[400px] md:h-[500px] lg:h-[600px] -my-16 md:-my-24 lg:-my-32 z-10 hidden md:block">
           <Image 
             src="https://websitedemos.net/martial-arts-04/wp-content/uploads/sites/686/2020/09/martial-arts-school-head-master-1.png"
-            alt="Anil Barya - Founder"
+            alt="Kyoshi Anil Barya - Founder"
             fill
-            className="object-contain object-bottom scale-125 origin-bottom"
+            className="object-contain object-bottom scale-110 md:scale-115 lg:scale-125 origin-bottom"
           />
         </div>
 
         {/* Right Quote */}
-        <div className="md:col-span-4 space-y-6 relative z-20 md:pl-12">
-          <p className="text-lg leading-relaxed font-light italic">
+        <div className="md:col-span-4 space-y-6 relative z-20 md:pl-8 lg:pl-12">
+          <p className="text-base md:text-lg leading-relaxed font-light italic">
             "Martial arts is not just about physical strength; it's about building character and discipline. At Budo Martial Arts Academy, we train our students to be confident, respectful, and focused. Our mission is to empower individuals of all ages to overcome challenges and become the best version of themselves—both on and off the mat."
           </p>
           {/* Faux Signature */}
-          <div className="text-4xl" style={{ fontFamily: "'Brush Script MT', cursive" }}>
-            Anil Barya
+          <div className="text-3xl md:text-4xl" style={{ fontFamily: "'Brush Script MT', cursive" }}>
+            Kyoshi Anil Barya
           </div>
         </div>
       </div>

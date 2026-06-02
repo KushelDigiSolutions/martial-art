@@ -17,7 +17,7 @@ export default function ContactHero() {
 
       {/* Bottom-left aligned title */}
       <div className="absolute bottom-8 md:bottom-12 lg:bottom-16 left-6 md:left-12 lg:left-20 z-10">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-black uppercase text-white tracking-tight leading-none font-display">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-black uppercase text-white tracking-tight leading-none font-display">
           CONTACT US
         </h1>
       </div>

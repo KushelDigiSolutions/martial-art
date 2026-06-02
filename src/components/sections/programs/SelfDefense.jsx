@@ -43,7 +43,7 @@ const features = [
 
 export default function SelfDefense() {
   return (
-    <section className="relative bg-[#050505] py-24 md:py-32 overflow-hidden">
+    <section className="relative bg-[#050505] py-14 md:py-20 overflow-hidden">
       {/* Background glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] bg-brand-red/[0.04] rounded-full blur-[120px] pointer-events-none" />
 
@@ -53,8 +53,8 @@ export default function SelfDefense() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header — Centered */}
-        <div className="text-center mb-16 md:mb-20">
-          <div className="flex items-center justify-center space-x-4 mb-6">
+        <div className="text-center mb-10 md:mb-14">
+          <div className="flex items-center justify-center space-x-4 mb-4">
             <div className="w-12 h-0.5 bg-brand-red" />
             <p className="text-brand-red font-bold tracking-[0.2em] text-xs uppercase font-sans">
               Be Prepared
@@ -62,7 +62,7 @@ export default function SelfDefense() {
             <div className="w-12 h-0.5 bg-brand-red" />
           </div>
 
-          <h2 className="font-display font-black tracking-tighter uppercase text-4xl md:text-5xl lg:text-6xl text-white leading-[0.9] mb-6">
+          <h2 className="font-display font-black tracking-tighter uppercase text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white leading-[0.9] mb-4">
             Self-Defense
             <br />
             <span className="text-brand-red">Training</span>
@@ -76,7 +76,7 @@ export default function SelfDefense() {
         </div>
 
         {/* 3-Column Feature Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {features.map((feature, index) => {
             const IconComponent = feature.icon;
             return (

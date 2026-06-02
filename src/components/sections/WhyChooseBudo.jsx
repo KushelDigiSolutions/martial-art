@@ -27,12 +27,12 @@ const features = [
 export default function WhyChooseBudo() {
   return (
     <section className="bg-brand-dark text-white py-16 border-t border-b border-brand-gray">
-      <div className="max-w-7xl mx-auto px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         <div className="text-center mb-12 md:mb-16">
           <p className="text-brand-red font-bold tracking-[0.2em] text-xs uppercase mb-4 font-sans">Why Budo</p>
-          <h2 className="text-4xl md:text-6xl font-black tracking-tighter font-display uppercase drop-shadow-xl">
-            WHY CHOOSE BUDO <br /> MARTIAL ARTS ACADEMY
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter font-display uppercase drop-shadow-xl leading-tight">
+            WHY CHOOSE BUDO<br className="hidden sm:block" /> MARTIAL ARTS ACADEMY
           </h2>
         </div>
 
