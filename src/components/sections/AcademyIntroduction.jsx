@@ -31,13 +31,13 @@ export default function AcademyIntroduction() {
             <p className="text-brand-red font-bold tracking-[0.2em] text-xs uppercase font-sans">Academy Introduction</p>
           </div>
           
-          <h2 className="text-4xl md:text-6xl font-black tracking-tighter leading-[1.1] font-display uppercase">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black tracking-tighter leading-tight font-display uppercase">
             MARTIAL ARTS ACADEMY IN <br className="hidden md:block" /> VASUNDHARA ENCLAVE, DELHI
           </h2>
           
-          <div className="space-y-6 text-gray-300 font-sans font-light text-lg">
+          <div className="space-y-6 text-gray-300 font-sans font-light text-base lg:text-lg">
             <p className="leading-relaxed">
-              Welcome to <strong className="text-white font-bold">Budo Martial Arts Academy</strong>, founded by <strong className="text-brand-red">Anil Barya</strong>. We believe in training to build character, not to create fighters. Join our community and discover your inner strength through disciplined, professional training rooted in traditional martial arts principles.
+              Welcome to <strong className="text-white font-bold">Budo Martial Arts Academy</strong>, founded by <strong className="text-brand-red">Kyoshi Anil Barya</strong>. We believe in training to build character, not to create fighters. Join our community and discover your inner strength through disciplined, professional training rooted in traditional martial arts principles.
             </p>
             <p className="leading-relaxed text-base text-gray-400">
               Our academy offers comprehensive martial arts programs for all ages and skill levels. We emphasize discipline, respect, physical fitness, and mental resilience. Whether you're looking to compete, learn practical self-defense, gain confidence, or achieve your fitness goals, we have a class tailored just for you.

@@ -56,14 +56,14 @@ const belts = [
 
 export default function BeltProgression() {
   return (
-    <section className="relative bg-[#050505] py-24 md:py-32 overflow-hidden">
+    <section className="relative bg-[#050505] py-14 md:py-20 overflow-hidden">
       {/* Background accents */}
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-brand-red/30 to-transparent" />
       <div className="absolute bottom-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-brand-red/30 to-transparent" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-16 md:mb-20">
+        <div className="text-center mb-10 md:mb-14">
           <div className="flex items-center justify-center space-x-4 mb-6">
             <div className="w-12 h-0.5 bg-brand-red" />
             <p className="text-brand-red font-bold tracking-[0.2em] text-xs uppercase font-sans">
@@ -72,7 +72,7 @@ export default function BeltProgression() {
             <div className="w-12 h-0.5 bg-brand-red" />
           </div>
 
-          <h2 className="font-display font-black tracking-tighter uppercase text-4xl md:text-5xl lg:text-6xl text-white leading-[0.9] mb-6">
+          <h2 className="font-display font-black tracking-tighter uppercase text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white leading-[0.9] mb-4">
             Belt
             <br />
             <span className="text-brand-red">Progression</span>
@@ -180,7 +180,7 @@ export default function BeltProgression() {
         </div>
 
         {/* Bottom CTA */}
-        <div className="text-center mt-16">
+        <div className="text-center mt-10">
           <p className="font-sans font-light text-gray-500 text-sm uppercase tracking-widest">
             Start your journey at White Belt — earn your way to Black Belt mastery
           </p>

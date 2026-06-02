@@ -48,7 +48,7 @@ export default function PhoneEmailDetails() {
             <p className="text-brand-red font-bold tracking-[0.2em] text-xs uppercase font-sans">Reach Out</p>
             <div className="w-8 h-0.5 bg-brand-red"></div>
           </div>
-          <h2 className="text-4xl md:text-6xl font-black tracking-tighter font-display uppercase">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-black tracking-tighter font-display uppercase">
             PHONE & <span className="text-brand-red">EMAIL</span> DETAILS
           </h2>
           <p className="mt-4 text-brand-light-gray font-sans font-light max-w-lg mx-auto text-base leading-relaxed">

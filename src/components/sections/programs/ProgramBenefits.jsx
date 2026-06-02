@@ -31,7 +31,7 @@ const benefits = [
 
 export default function ProgramBenefits() {
   return (
-    <section className="relative bg-black py-24 md:py-32 overflow-hidden">
+    <section className="relative bg-black py-14 md:py-20 overflow-hidden">
       {/* Background radial glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[900px] h-[900px] bg-brand-red/[0.03] rounded-full blur-[150px] pointer-events-none" />
 
@@ -40,8 +40,8 @@ export default function ProgramBenefits() {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="text-center mb-16 md:mb-20">
-          <div className="flex items-center justify-center space-x-4 mb-6">
+        <div className="text-center mb-10 md:mb-14">
+          <div className="flex items-center justify-center space-x-4 mb-4">
             <div className="w-12 h-0.5 bg-brand-red" />
             <p className="text-brand-red font-bold tracking-[0.2em] text-xs uppercase font-sans">
               Why Train With Us
@@ -49,7 +49,7 @@ export default function ProgramBenefits() {
             <div className="w-12 h-0.5 bg-brand-red" />
           </div>
 
-          <h2 className="font-display font-black tracking-tighter uppercase text-4xl md:text-5xl lg:text-6xl text-white leading-[0.9] mb-6">
+          <h2 className="font-display font-black tracking-tighter uppercase text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white leading-[0.9] mb-4">
             Program
             <br />
             <span className="text-brand-red">Benefits</span>
@@ -62,7 +62,7 @@ export default function ProgramBenefits() {
         </div>
 
         {/* 4-Column Benefits Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
           {benefits.map((benefit, index) => {
             const IconComponent = benefit.icon;
             return (

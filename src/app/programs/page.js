@@ -4,11 +4,12 @@ import ProgramsOverview from '@/components/sections/programs/ProgramsOverview';
 import KidsProgram from '@/components/sections/programs/KidsProgram';
 import TeenProgram from '@/components/sections/programs/TeenProgram';
 import AdultProgram from '@/components/sections/programs/AdultProgram';
+import ProgramCategories from '@/components/sections/programs/ProgramCategories';
 import SelfDefense from '@/components/sections/programs/SelfDefense';
 import FitnessDiscipline from '@/components/sections/programs/FitnessDiscipline';
 import BeltProgression from '@/components/sections/programs/BeltProgression';
 import ProgramBenefits from '@/components/sections/programs/ProgramBenefits';
-import TrainingSchedule from '@/components/sections/programs/TrainingSchedule';
+
 
 export default function ProgramsPage() {
   return (
@@ -19,11 +20,12 @@ export default function ProgramsPage() {
         <KidsProgram />
         <TeenProgram />
         <AdultProgram />
+        <ProgramCategories />
         <SelfDefense />
         <FitnessDiscipline />
         <BeltProgression />
         <ProgramBenefits />
-        <TrainingSchedule />
+    
       </main>
       <FooterSection />
     </div>

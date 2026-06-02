@@ -22,7 +22,7 @@ export default function HeroBanner() {
             <div className="w-8 h-0.5 bg-brand-red"></div>
             <p className="text-brand-red font-bold tracking-[0.2em] text-xs uppercase font-sans">Train with experience coach</p>
           </div>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[5.5rem] font-black tracking-tighter leading-[0.9] font-display uppercase drop-shadow-2xl">
+          <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-[5.5rem] font-black tracking-tighter leading-[0.9] font-display uppercase drop-shadow-2xl">
             BUDO MARTIAL<br />ARTS ACADEMY.
           </h1>
           <p className="text-gray-300 text-lg font-light max-w-md leading-relaxed font-sans mt-6">
@@ -39,7 +39,7 @@ export default function HeroBanner() {
         </div>
 
         {/* Right Image */}
-        <div className="hidden lg:block relative w-full h-[60vh] z-10">
+        <div className="hidden md:block relative w-full h-[50vh] md:h-[55vh] lg:h-[60vh] z-10">
           <Image 
             src="https://res.cloudinary.com/dlzxiy0tl/image/upload/v1780313356/hero_banner_ft43hc.png"
             alt="Martial Arts Student"

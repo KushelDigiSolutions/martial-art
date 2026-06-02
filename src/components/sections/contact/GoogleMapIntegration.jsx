@@ -13,7 +13,7 @@ export default function GoogleMapIntegration() {
             <p className="text-brand-red font-bold tracking-[0.2em] text-xs uppercase font-sans">Our Location</p>
             <div className="w-8 h-0.5 bg-brand-red"></div>
           </div>
-          <h2 className="text-4xl md:text-6xl font-black tracking-tighter font-display uppercase">
+          <h2 className="text-3xl sm:text-4xl md:text-6xl font-black tracking-tighter font-display uppercase">
             GOOGLE MAP <span className="text-brand-red">INTEGRATION</span>
           </h2>
           <p className="mt-4 text-brand-light-gray font-sans font-light max-w-lg mx-auto text-base leading-relaxed">
@@ -40,7 +40,7 @@ export default function GoogleMapIntegration() {
           </div>
 
           {/* Overlay Info Card */}
-          <div className="absolute bottom-6 left-6 right-6 sm:right-auto sm:max-w-xs bg-black/95 border-l-4 border-brand-red p-6 shadow-2xl">
+          <div className="absolute bottom-6 left-6 right-6 md:right-auto md:max-w-xs bg-black/95 border-l-4 border-brand-red p-6 shadow-2xl">
             <div className="flex items-start space-x-3 mb-4">
               <MapPin className="w-5 h-5 text-brand-red flex-shrink-0 mt-0.5" />
               <div>
