@@ -10,12 +10,12 @@ const classesData = [
     description: 'Known as the "art of eight limbs", utilizing fists, elbows, knees, and shins for devastating striking power.',
   },
   {
-    title: 'JIU-JITSU',
-    description: 'Focuses on grappling and ground fighting, teaching how to successfully defend against larger opponents.',
+    title: 'MMA',
+    description: 'A dynamic, full-contact combat sport combining techniques from boxing, wrestling, jiu-jitsu, and Muay Thai into a comprehensive fighting system.',
   },
   {
-    title: 'KUNG FU',
-    description: 'A range of martial arts styles originating in China, focusing on intricate discipline, balance, and fluid technique.',
+    title: 'BOXING',
+    description: 'The sweet science of striking, focusing on footwork, head movement, and throwing powerful, precise punches in a structured environment.',
   }
 ];
 
