@@ -47,11 +47,11 @@ export default function AcademyOverview() {
           </div>
         </div>
 
-        {/* Right Side: Image */}
+        {/* Right Side: Logo */}
         <div className="relative w-full flex justify-center lg:justify-end items-center mt-8 lg:mt-0">
           <Image
-            src="https://res.cloudinary.com/dlzxiy0tl/image/upload/v1780315029/MARTIAL_ARTS_zzzuhd.png"
-            alt="Kyoshi Anil Barya - Founder"
+            src="https://res.cloudinary.com/dlzxiy0tl/image/upload/v1780468290/martial_logo_u7r0pg.jpg"
+            alt="BUDO SHITO-RYU KARATE ASSOCIATION Logo"
             width={1000}
             height={800}
             className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-full h-auto object-contain drop-shadow-[0_20px_30px_rgba(0,0,0,0.7)]"
