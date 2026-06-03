@@ -9,7 +9,7 @@ export default function ProgramsOverview() {
         src="https://res.cloudinary.com/dlzxiy0tl/image/upload/v1780316961/budo_martial_academy_zrsi3i.png"
         alt="Programs"
         fill
-        className="object-cover"
+        className="object-cover object-top"
         priority
       />
       {/* Dark overlay */}

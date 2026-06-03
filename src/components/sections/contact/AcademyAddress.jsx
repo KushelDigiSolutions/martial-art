@@ -89,7 +89,7 @@ export default function AcademyAddress() {
             <div
               className="relative h-72 lg:h-96 overflow-hidden"
               style={{
-                backgroundImage: `url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&q=80')`,
+                backgroundImage: `url('https://res.cloudinary.com/dlzxiy0tl/image/upload/v1780315466/martialarts_ofrjic.png')`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
               }}

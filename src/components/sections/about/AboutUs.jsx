@@ -9,7 +9,7 @@ export default function AboutUs() {
         src="https://res.cloudinary.com/dlzxiy0tl/image/upload/v1780313356/hero_banner_ft43hc.png"
         alt="About Us"
         fill
-        className="object-cover"
+        className="object-cover object-top"
         priority
       />
       {/* Dark overlay */}
