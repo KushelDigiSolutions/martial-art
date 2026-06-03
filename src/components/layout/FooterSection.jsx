@@ -67,7 +67,17 @@ export default function FooterSection() {
       {/* Bottom Bar */}
       <div className="max-w-7xl mx-auto mt-8 pt-4 border-t border-brand-gray flex flex-col md:flex-row justify-between items-center text-xs text-brand-light-gray font-sans font-light tracking-wide">
         <p>Copyright © {new Date().getFullYear()} Budo Martial Arts</p>
-        <p className="mt-4 md:mt-0">Powered by Budo Martial Arts</p>
+        <p className="text-center md:text-right mt-4 md:mt-0">
+          Designed and Developed By <br className="lg:hidden" />
+          <a 
+            className="text-brand-red hover:underline font-semibold" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            href="https://www.kusheldigi.com/"
+          >
+            Kushel Digi Solutions
+          </a>
+        </p>
       </div>
     </footer>
   );
