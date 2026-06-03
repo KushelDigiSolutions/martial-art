@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from 'react';
-import { Send, CheckCircle, AlertCircle } from 'lucide-react';
+import { Send, CheckCircle, AlertCircle, ChevronDown } from 'lucide-react';
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -13,6 +13,7 @@ export default function ContactForm() {
   });
   const [submitted, setSubmitted] = useState(false);
   const [errors, setErrors] = useState({});
+  const [isSelectOpen, setIsSelectOpen] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -195,20 +196,27 @@ export default function ContactForm() {
                 <label className="text-xs font-bold tracking-widest uppercase font-sans text-brand-light-gray">
                   Subject <span className="text-brand-red">*</span>
                 </label>
-                <select
-                  name="subject"
-                  value={formData.subject}
-                  onChange={handleChange}
-                  className={`bg-[#0a0a0a] border ${errors.subject ? 'border-red-500' : 'border-brand-gray'} text-white px-5 py-4 text-sm font-sans focus:outline-none focus:border-brand-red transition-colors duration-300 appearance-none cursor-pointer`}
-                >
-                  <option value="" disabled className="text-gray-600">Select a subject...</option>
-                  <option value="general">General Inquiry</option>
-                  <option value="programs">Program Information</option>
-                  <option value="membership">Membership & Pricing</option>
-                  <option value="schedule">Class Schedule</option>
-                  <option value="trial">Free Trial Class</option>
-                  <option value="other">Other</option>
-                </select>
+                <div className="relative">
+                  <select
+                    name="subject"
+                    value={formData.subject}
+                    onChange={handleChange}
+                    onFocus={() => setIsSelectOpen(true)}
+                    onBlur={() => setIsSelectOpen(false)}
+                    className={`w-full bg-[#0a0a0a] border ${errors.subject ? 'border-red-500' : 'border-brand-gray'} text-white px-5 py-4 pr-12 text-sm font-sans focus:outline-none focus:border-brand-red transition-colors duration-300 appearance-none cursor-pointer`}
+                  >
+                    <option value="" disabled className="text-gray-600">Select a subject...</option>
+                    <option value="general">General Inquiry</option>
+                    <option value="programs">Program Information</option>
+                    <option value="membership">Membership & Pricing</option>
+                    <option value="schedule">Class Schedule</option>
+                    <option value="trial">Free Trial Class</option>
+                    <option value="other">Other</option>
+                  </select>
+                  <ChevronDown 
+                    className={`absolute right-4 top-1/2 -translate-y-1/2 w-5 h-5 text-brand-red pointer-events-none transition-transform duration-300 ease-in-out ${isSelectOpen ? 'rotate-180' : 'rotate-0'}`} 
+                  />
+                </div>
                 {errors.subject && <span className="text-red-500 text-xs flex items-center space-x-1"><AlertCircle className="w-3 h-3" /> <span>{errors.subject}</span></span>}
               </div>
 

@@ -79,24 +79,21 @@ export default function FitnessDiscipline() {
            
           </div>
 
-          {/* Right Side — Full Background Image with Dark Overlay */}
-          <div className="relative min-h-[300px] sm:min-h-[400px] lg:min-h-[600px] group">
+          {/* Right Side — Full Background Image */}
+          <div className="relative min-h-[300px] sm:min-h-[400px] lg:min-h-[600px]">
             <div className="absolute inset-0 overflow-hidden">
               <Image
                 src="https://res.cloudinary.com/dlzxiy0tl/image/upload/v1780316961/budo_martial_academy_zrsi3i.png"
                 alt="Fitness and Discipline Training"
                 fill
-                className="object-cover transition-transform duration-700 group-hover:scale-105"
+                className="object-cover"
               />
-              {/* Dark overlay gradient */}
-              <div className="absolute inset-0 bg-gradient-to-r from-brand-dark via-brand-dark/70 to-transparent" />
-              <div className="absolute inset-0 bg-gradient-to-t from-brand-dark via-transparent to-transparent" />
-              {/* Red tint on hover */}
-              <div className="absolute inset-0 bg-brand-red/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+              {/* Subtle dark overlay for text readability only on mobile */}
+              <div className="absolute inset-0 bg-black/20 lg:bg-transparent" />
             </div>
 
             {/* Decorative border */}
-            <div className="absolute top-4 right-4 bottom-4 left-4 border border-brand-red/20 pointer-events-none transition-all duration-500 group-hover:border-brand-red/40" />
+            <div className="absolute top-4 right-4 bottom-4 left-4 border border-brand-red/20 pointer-events-none" />
           </div>
         </div>
 
