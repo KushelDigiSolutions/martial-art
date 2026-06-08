@@ -9,6 +9,7 @@ import FeaturedPrograms from '@/components/sections/FeaturedPrograms';
 import StudentBenefitsSection from '@/components/sections/StudentBenefitsSection';
 import TestimonialsSection from '@/components/sections/TestimonialsSection';
 
+
 export default function Home() {
   return (
     <div className="bg-black min-h-screen font-sans selection:bg-brand-red selection:text-white overflow-x-hidden">
