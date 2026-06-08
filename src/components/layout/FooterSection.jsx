@@ -9,9 +9,9 @@ export default function FooterSection() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo and Description */}
         <div className="col-span-1 md:col-span-2 space-y-6">
-          <div className="relative block w-36 h-16 lg:w-44 lg:h-20">
+          <div className="relative block w-40 h-16 lg:w-56 lg:h-24">
             <Image 
-              src="https://res.cloudinary.com/dlzxiy0tl/image/upload/v1780908240/budo_martial_art_logo1_vpyrou.png"
+              src="https://res.cloudinary.com/dlzxiy0tl/image/upload/v1780920011/budo_martial_art_logo12_hyct8z.png"
               alt="Budo Martial Arts Logo"
               fill
               className="object-contain object-left"
