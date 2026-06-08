@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Navbar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -19,11 +20,16 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto flex justify-between items-center">
 
           {/* Logo */}
-          <Link
-            href="/"
-            className="text-3xl lg:text-4xl font-black tracking-tighter uppercase font-display"
-          >
-            <span className="text-white">B</span><span className="text-brand-red">UDO.</span>
+          <Link href="/" className="relative block w-28 h-12 lg:w-36 lg:h-16">
+            <Image 
+              src="https://res.cloudinary.com/dlzxiy0tl/image/upload/v1780908240/budo_martial_art_logo1_vpyrou.png"
+              alt="Budo Martial Arts Logo"
+              fill
+              className="object-contain object-left"
+              priority
+              quality={100}
+              unoptimized
+            />
           </Link>
 
           {/* Desktop nav — lg and above only */}
