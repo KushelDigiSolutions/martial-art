@@ -41,7 +41,7 @@ export default function HeroBanner() {
         {/* Right Image */}
         <div className="relative w-full h-[40vh] sm:h-[45vh] md:h-[55vh] lg:h-[65vh] z-10 mt-8 md:mt-0">
           <Image 
-            src="https://res.cloudinary.com/dlzxiy0tl/image/upload/v1780483682/Kyoshi_Anil_Barya_bb8uwl.png"
+            src="https://res.cloudinary.com/dlzxiy0tl/image/upload/v1780919812/budo_martial_art_yacztt.jpg"
             alt="Martial Arts Student"
             fill
             className="object-contain object-center drop-shadow-2xl"
