@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { MapPin, Phone, Mail } from 'lucide-react';
 
 export default function FooterSection() {
@@ -8,8 +9,15 @@ export default function FooterSection() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo and Description */}
         <div className="col-span-1 md:col-span-2 space-y-6">
-          <div className="text-brand-red text-4xl font-black tracking-tighter font-display uppercase">
-            <span className="text-white">B</span>UDO<span className="text-brand-red">.</span>
+          <div className="relative block w-36 h-16 lg:w-44 lg:h-20">
+            <Image 
+              src="https://res.cloudinary.com/dlzxiy0tl/image/upload/v1780908240/budo_martial_art_logo1_vpyrou.png"
+              alt="Budo Martial Arts Logo"
+              fill
+              className="object-contain object-left"
+              quality={100}
+              unoptimized
+            />
           </div>
           <p className="text-brand-light-gray text-base leading-relaxed max-w-sm font-sans font-light">
             We are dedicated to providing the highest quality martial arts instruction in a safe and positive environment. Our goal is to empower our students to achieve their full potential.

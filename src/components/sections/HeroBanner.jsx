@@ -14,7 +14,7 @@ export default function HeroBanner() {
       {/* Dark overlay for text readability */}
       <div className="absolute inset-0 bg-gradient-to-r from-black via-black/90 to-transparent"></div>
       
-      <div className="relative z-10 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center pt-20 sm:pt-24 lg:pt-28 pb-12 lg:pb-16">
+      <div className="relative z-10 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center pt-24 sm:pt-28 md:pt-32 pb-12 lg:pb-16">
         
         {/* Left Content */}
         <div className="text-white space-y-8 max-w-xl z-20">
@@ -22,8 +22,8 @@ export default function HeroBanner() {
             <div className="w-8 h-0.5 bg-brand-red"></div>
             <p className="text-brand-red font-bold tracking-[0.2em] text-xs uppercase font-sans">Train with experience coach</p>
           </div>
-          <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-[5.5rem] font-black tracking-tighter leading-[0.9] font-display uppercase drop-shadow-2xl">
-            BUDO MARTIAL<br />ARTS ACADEMY.
+          <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-[5.5rem] font-black tracking-tighter leading-[1.1] md:leading-[0.9] font-display uppercase drop-shadow-2xl">
+            BUDO MARTIAL<br className="hidden md:block" /> ARTS ACADEMY.
           </h1>
           <p className="text-gray-300 text-lg font-light max-w-md leading-relaxed font-sans mt-6">
             Master traditional martial arts with certified instructors. Build strength, confidence, and discipline. Perfect for all ages and skill levels.
@@ -39,7 +39,7 @@ export default function HeroBanner() {
         </div>
 
         {/* Right Image */}
-        <div className="hidden md:block relative w-full h-[50vh] md:h-[55vh] lg:h-[60vh] z-10">
+        <div className="relative w-full h-[40vh] sm:h-[45vh] md:h-[55vh] lg:h-[65vh] z-10 mt-8 md:mt-0">
           <Image 
             src="https://res.cloudinary.com/dlzxiy0tl/image/upload/v1780483682/Kyoshi_Anil_Barya_bb8uwl.png"
             alt="Martial Arts Student"
